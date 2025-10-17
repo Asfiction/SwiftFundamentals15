@@ -1,12 +1,12 @@
 # Name: 
 
 ## About Me
-* School Email: 
-* Dream Career: 
-* Hidden Talent: 
+* School Email: gantl1661@durhamtech.edu
+* Dream Career: Indie Game Developer
+* Hidden Talent: 3D modeling
 
 ## Course Information
-* Semester: 
+* Semester: Fall
 * Course Name: CSC 118 - Swift Fundamentals I
 * Institution: [Durham Technical Community College](https://www.durhamtech.edu/)
 * Textbook: [Develop in Swift Fundamentals Xcode 15](https://books.apple.com/us/book/develop-in-swift-fundamentals/id6468967906)
