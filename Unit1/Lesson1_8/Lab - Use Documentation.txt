@@ -1,0 +1,21 @@
+What are three of the primary responsibilities of a UIView object?
+
+  1. The object views draw content in their rectangular area using UIKit or Core Graphics.
+  2. The object views may contain zero or more subviews
+  3. A object view is a subclass of UIResponder and can respond to touches and other types of events. 
+
+What does documentation call a view that's embedded in another view?
+
+  -Subview
+
+What does documentation call the parent view that's embedding the other view?
+
+  -Superview
+
+What is a view's frame?
+
+  -The origin and dimensions of the view in the coordinate system of its superview.
+
+How is a view's bounds different from its frame?
+
+  -It defines the internal dimensions of the view as it sees them. It's use is almost exclusive to custom drawing code.
