@@ -82,14 +82,18 @@ class ViewController: UIViewController {
             totalLosses += 1
         } else if currentGame.word == currentGame.formattedWord {
             totalWins += 1
+            addPoints(100) // Awards 100 points for a win
         } else {
             updateUI()
-            addPoints()
+            addPoints(10) // Awards 10 points for each correct guess
         }
     }
     
-    func addPoints() {
-        
+    // Function to add points to the score
+    func addPoints(_ points: Int) {
+        let currentScore = Int(scorePoints.text ?? "0") ?? 0
+        let newScore = currentScore + points
+        scorePoints.text = String(newScore)
     }
     
 }
