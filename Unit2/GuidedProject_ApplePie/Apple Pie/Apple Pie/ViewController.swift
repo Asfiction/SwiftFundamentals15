@@ -82,10 +82,10 @@ class ViewController: UIViewController {
             totalLosses += 1
         } else if currentGame.word == currentGame.formattedWord {
             totalWins += 1
-            addPoints(100) // Awards 100 points for a win
+            addPoints(100)
         } else {
             updateUI()
-            addPoints(10) // Awards 10 points for each correct guess
+            addPoints(10)
         }
     }
     
