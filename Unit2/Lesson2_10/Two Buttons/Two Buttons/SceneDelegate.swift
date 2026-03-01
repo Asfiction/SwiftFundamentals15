@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Two Buttons
+//  two buttons
 //
-//  Created by Lizzy on 11/30/25.
+//  Created by fall2025 on 3/1/26.
 //
 
 import UIKit

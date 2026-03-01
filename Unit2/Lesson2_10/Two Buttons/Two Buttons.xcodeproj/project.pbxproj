@@ -6,33 +6,76 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		8EB5F8442F54C8E000FC1C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB5F8252F54C8DD00FC1C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB5F82C2F54C8DD00FC1C93;
+			remoteInfo = "two buttons";
+		};
+		8EB5F84E2F54C8E000FC1C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB5F8252F54C8DD00FC1C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB5F82C2F54C8DD00FC1C93;
+			remoteInfo = "two buttons";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		63EB90192EDD09D500BF181F /* Two Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB5F82D2F54C8DE00FC1C93 /* two buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "two buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB5F8432F54C8E000FC1C93 /* two buttonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "two buttonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB5F84D2F54C8E000FC1C93 /* two buttonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "two buttonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		63EB902B2EDD09D700BF181F /* Exceptions for "Two Buttons" folder in "Two Buttons" target */ = {
+		8EB5F8552F54C8E000FC1C93 /* Exceptions for "two buttons" folder in "two buttons" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 63EB90182EDD09D500BF181F /* Two Buttons */;
+			target = 8EB5F82C2F54C8DD00FC1C93 /* two buttons */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		63EB901B2EDD09D500BF181F /* Two Buttons */ = {
+		8EB5F82F2F54C8DE00FC1C93 /* two buttons */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				63EB902B2EDD09D700BF181F /* Exceptions for "Two Buttons" folder in "Two Buttons" target */,
+				8EB5F8552F54C8E000FC1C93 /* Exceptions for "two buttons" folder in "two buttons" target */,
 			);
-			path = "Two Buttons";
+			path = "two buttons";
+			sourceTree = "<group>";
+		};
+		8EB5F8462F54C8E000FC1C93 /* two buttonsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "two buttonsTests";
+			sourceTree = "<group>";
+		};
+		8EB5F8502F54C8E000FC1C93 /* two buttonsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "two buttonsUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63EB90162EDD09D500BF181F /* Frameworks */ = {
+		8EB5F82A2F54C8DD00FC1C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB5F8402F54C8E000FC1C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB5F84A2F54C8E000FC1C93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63EB90102EDD09D500BF181F = {
+		8EB5F8242F54C8DD00FC1C93 = {
 			isa = PBXGroup;
 			children = (
-				63EB901B2EDD09D500BF181F /* Two Buttons */,
-				63EB901A2EDD09D500BF181F /* Products */,
+				8EB5F82F2F54C8DE00FC1C93 /* two buttons */,
+				8EB5F8462F54C8E000FC1C93 /* two buttonsTests */,
+				8EB5F8502F54C8E000FC1C93 /* two buttonsUITests */,
+				8EB5F82E2F54C8DE00FC1C93 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		63EB901A2EDD09D500BF181F /* Products */ = {
+		8EB5F82E2F54C8DE00FC1C93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63EB90192EDD09D500BF181F /* Two Buttons.app */,
+				8EB5F82D2F54C8DE00FC1C93 /* two buttons.app */,
+				8EB5F8432F54C8E000FC1C93 /* two buttonsTests.xctest */,
+				8EB5F84D2F54C8E000FC1C93 /* two buttonsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63EB90182EDD09D500BF181F /* Two Buttons */ = {
+		8EB5F82C2F54C8DD00FC1C93 /* two buttons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63EB902C2EDD09D700BF181F /* Build configuration list for PBXNativeTarget "Two Buttons" */;
+			buildConfigurationList = 8EB5F8562F54C8E000FC1C93 /* Build configuration list for PBXNativeTarget "two buttons" */;
 			buildPhases = (
-				63EB90152EDD09D500BF181F /* Sources */,
-				63EB90162EDD09D500BF181F /* Frameworks */,
-				63EB90172EDD09D500BF181F /* Resources */,
+				8EB5F8292F54C8DD00FC1C93 /* Sources */,
+				8EB5F82A2F54C8DD00FC1C93 /* Frameworks */,
+				8EB5F82B2F54C8DD00FC1C93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				63EB901B2EDD09D500BF181F /* Two Buttons */,
+				8EB5F82F2F54C8DE00FC1C93 /* two buttons */,
 			);
-			name = "Two Buttons";
+			name = "two buttons";
 			packageProductDependencies = (
 			);
-			productName = "Two Buttons";
-			productReference = 63EB90192EDD09D500BF181F /* Two Buttons.app */;
+			productName = "two buttons";
+			productReference = 8EB5F82D2F54C8DE00FC1C93 /* two buttons.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8EB5F8422F54C8E000FC1C93 /* two buttonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB5F85B2F54C8E000FC1C93 /* Build configuration list for PBXNativeTarget "two buttonsTests" */;
+			buildPhases = (
+				8EB5F83F2F54C8E000FC1C93 /* Sources */,
+				8EB5F8402F54C8E000FC1C93 /* Frameworks */,
+				8EB5F8412F54C8E000FC1C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB5F8452F54C8E000FC1C93 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EB5F8462F54C8E000FC1C93 /* two buttonsTests */,
+			);
+			name = "two buttonsTests";
+			packageProductDependencies = (
+			);
+			productName = "two buttonsTests";
+			productReference = 8EB5F8432F54C8E000FC1C93 /* two buttonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EB5F84C2F54C8E000FC1C93 /* two buttonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB5F85E2F54C8E000FC1C93 /* Build configuration list for PBXNativeTarget "two buttonsUITests" */;
+			buildPhases = (
+				8EB5F8492F54C8E000FC1C93 /* Sources */,
+				8EB5F84A2F54C8E000FC1C93 /* Frameworks */,
+				8EB5F84B2F54C8E000FC1C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB5F84F2F54C8E000FC1C93 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EB5F8502F54C8E000FC1C93 /* two buttonsUITests */,
+			);
+			name = "two buttonsUITests";
+			packageProductDependencies = (
+			);
+			productName = "two buttonsUITests";
+			productReference = 8EB5F84D2F54C8E000FC1C93 /* two buttonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63EB90112EDD09D500BF181F /* Project object */ = {
+		8EB5F8252F54C8DD00FC1C93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					63EB90182EDD09D500BF181F = {
-						CreatedOnToolsVersion = 26.0.1;
+					8EB5F82C2F54C8DD00FC1C93 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8EB5F8422F54C8E000FC1C93 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8EB5F82C2F54C8DD00FC1C93;
+					};
+					8EB5F84C2F54C8E000FC1C93 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8EB5F82C2F54C8DD00FC1C93;
 					};
 				};
 			};
-			buildConfigurationList = 63EB90142EDD09D500BF181F /* Build configuration list for PBXProject "Two Buttons" */;
+			buildConfigurationList = 8EB5F8282F54C8DD00FC1C93 /* Build configuration list for PBXProject "two buttons" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 63EB90102EDD09D500BF181F;
+			mainGroup = 8EB5F8242F54C8DD00FC1C93;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 63EB901A2EDD09D500BF181F /* Products */;
+			productRefGroup = 8EB5F82E2F54C8DE00FC1C93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63EB90182EDD09D500BF181F /* Two Buttons */,
+				8EB5F82C2F54C8DD00FC1C93 /* two buttons */,
+				8EB5F8422F54C8E000FC1C93 /* two buttonsTests */,
+				8EB5F84C2F54C8E000FC1C93 /* two buttonsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63EB90172EDD09D500BF181F /* Resources */ = {
+		8EB5F82B2F54C8DD00FC1C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB5F8412F54C8E000FC1C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB5F84B2F54C8E000FC1C93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63EB90152EDD09D500BF181F /* Sources */ = {
+		8EB5F8292F54C8DD00FC1C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB5F83F2F54C8E000FC1C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB5F8492F54C8E000FC1C93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,8 +268,21 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8EB5F8452F54C8E000FC1C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB5F82C2F54C8DD00FC1C93 /* two buttons */;
+			targetProxy = 8EB5F8442F54C8E000FC1C93 /* PBXContainerItemProxy */;
+		};
+		8EB5F84F2F54C8E000FC1C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB5F82C2F54C8DD00FC1C93 /* two buttons */;
+			targetProxy = 8EB5F84E2F54C8E000FC1C93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		63EB902D2EDD09D700BF181F /* Debug */ = {
+		8EB5F8572F54C8E000FC1C93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -146,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Two Buttons/Info.plist";
+				INFOPLIST_FILE = "two buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,19 +301,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Two-Buttons";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lizzy.two-buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		63EB902E2EDD09D700BF181F /* Release */ = {
+		8EB5F8582F54C8E000FC1C93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -177,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Two Buttons/Info.plist";
+				INFOPLIST_FILE = "two buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,19 +328,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Two-Buttons";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lizzy.two-buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		63EB902F2EDD09D700BF181F /* Debug */ = {
+		8EB5F8592F54C8E000FC1C93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -263,7 +399,7 @@
 			};
 			name = Debug;
 		};
-		63EB90302EDD09D700BF181F /* Release */ = {
+		8EB5F85A2F54C8E000FC1C93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -319,28 +455,114 @@
 			};
 			name = Release;
 		};
+		8EB5F85C2F54C8E000FC1C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lizzy.two-buttonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/two buttons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/two buttons";
+			};
+			name = Debug;
+		};
+		8EB5F85D2F54C8E000FC1C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lizzy.two-buttonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/two buttons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/two buttons";
+			};
+			name = Release;
+		};
+		8EB5F85F2F54C8E000FC1C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lizzy.two-buttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "two buttons";
+			};
+			name = Debug;
+		};
+		8EB5F8602F54C8E000FC1C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lizzy.two-buttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "two buttons";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63EB90142EDD09D500BF181F /* Build configuration list for PBXProject "Two Buttons" */ = {
+		8EB5F8282F54C8DD00FC1C93 /* Build configuration list for PBXProject "two buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63EB902F2EDD09D700BF181F /* Debug */,
-				63EB90302EDD09D700BF181F /* Release */,
+				8EB5F8592F54C8E000FC1C93 /* Debug */,
+				8EB5F85A2F54C8E000FC1C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63EB902C2EDD09D700BF181F /* Build configuration list for PBXNativeTarget "Two Buttons" */ = {
+		8EB5F8562F54C8E000FC1C93 /* Build configuration list for PBXNativeTarget "two buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63EB902D2EDD09D700BF181F /* Debug */,
-				63EB902E2EDD09D700BF181F /* Release */,
+				8EB5F8572F54C8E000FC1C93 /* Debug */,
+				8EB5F8582F54C8E000FC1C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB5F85B2F54C8E000FC1C93 /* Build configuration list for PBXNativeTarget "two buttonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB5F85C2F54C8E000FC1C93 /* Debug */,
+				8EB5F85D2F54C8E000FC1C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB5F85E2F54C8E000FC1C93 /* Build configuration list for PBXNativeTarget "two buttonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB5F85F2F54C8E000FC1C93 /* Debug */,
+				8EB5F8602F54C8E000FC1C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63EB90112EDD09D500BF181F /* Project object */;
+	rootObject = 8EB5F8252F54C8DD00FC1C93 /* Project object */;
 }

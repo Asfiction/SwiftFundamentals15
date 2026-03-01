@@ -1,31 +1,32 @@
 //
 //  ViewController.swift
-//  Two Buttons
+//  two buttons
 //
-//  Created by Lizzy on 11/30/25.
+//  Created by fall2025 on 3/1/26.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var label:UILabel!
+    @IBOutlet weak var textField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet var textField: UITextField!
-    @IBOutlet var label: UILabel!
-
-    @IBAction func setTextButtonTapped(_ sender: UITextField) {
+    @IBAction func setTextButtonTapped(_ sender: UIButton) {
         label.text = textField.text
     }
     
-    @IBAction func clearTextButtonTapped(_ sender: Any) {
+    @IBAction func clearTextButtonTapped(_sender: UIButton) {
         textField.text = ""
         label.text = ""
+
     }
-    
-    
+
+
 }
 
