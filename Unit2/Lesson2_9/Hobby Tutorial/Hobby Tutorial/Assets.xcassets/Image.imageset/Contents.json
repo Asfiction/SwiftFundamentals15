@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "WhiteKing.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "ps5.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
